@@ -23,7 +23,7 @@
 
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark ">
 
-    <div class="container-fluid">
+    <div class="container">
 
 
       <a class="navbar-brand" href="#"> <p class="text-white text-center cursiva m-auto py-1"> Felipe Palma </p> </a>
@@ -31,19 +31,22 @@
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
+
         <li class="nav-item ">
-          <a class="nav-link text-white cursiva" href="#acercademi"> Sobre mí <span class="sr-only">(current)</span></a>
+          <a class="nav-link  text-white cursiva" href="#sobremi"> Sobre mí </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white cursiva" href="#experiencia">Experiencia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white cursiva" href="#">Experiencia</a>
+          <a class="nav-link text-white cursiva" href="#ultimo">Trabajos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white cursiva" href="#">Trabajos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white cursiva" href="#">Contacto</a>
+          <a class="nav-link text-white cursiva" href="#contacto">Contacto</a>
         </li>
 
       </ul>
@@ -53,21 +56,26 @@
 
 
 
-<section id="principal" class="container-fluid py-5 bg-light">
+<section id="principal" class="py-5 bg-white">
 
 
-  <div class="row">
+  <div class="container">
 
-    <img src="assets/img/Felipe.jpg" alt="Felipe Palma Álvarez" class="col-7" >
+    <div class="row">
+      <div class="col-sm-7 m-auto py-5">
+        <img src="assets/img/Felipe.jpg" alt="Felipe Palma Álvarez" class="rounded" width="80%">
+      </div>
 
 
-    <div class="col-5 py-5 my-5">
+      <div class="col-sm-5 py-2 m-auto">
 
-      <h1 class="display-3 anton text-center"> YO SOY </h1>
-      <br/>
-      <hr class="hr"> </hr>
-      <br/>
-      <h1 class="display-2 anton text-center"> FELIPE PALMA</h1>
+        <h1 class=" anton text-center text-dark"> YO SOY </h1>
+        <br/>
+        <hr class="hr"> </hr>
+        <br/>
+        <h1 class="anton text-center text-dark"> FELIPE PALMA</h1>
+      </div>
+
     </div>
 
   </div>
@@ -77,26 +85,31 @@
 
 
 
-<section id="informacion" class="container bg-white py-3 ">
+<section id="sobremi" class="bg-dark py-3 ">
 
-  <div>
 
-    <h1 class="text-center cursiva display-1"> Sobre mí </h1>
-    <hr class="hr"> </hr>
+  <div class="container">
 
-  </div>
+    <div>
 
-  <div class="row">
+      <h1 class="text-center cursiva text-white"> Sobre mí </h1>
+      <hr class="hrwhite"> </hr>
 
-    <p class="text-justify anton col-sm-6 py-5"> Hola, les contare un poco sobre mí. Tengo 24 años, Desde muy niño me encantaba la informatica, me gustaba mucho intrusear
-      los computadores, cambiarles piezas, instarles diferentes sistemas operativos y realizar multiples tareas de soporte para ellos. Luego de salir del Colegio el Año 2012
-      decidí estudiar Ingeniería en Informática en Inacap, por diferentes problemas no pude seguir estudiando, pero luego retome los estudios y me titule de Analista Programador.
-    </p>
+    </div>
 
-    <p class="text-justify anton col-sm-6 py-5"> Luego decidí continuar aprendiendo lo que mas me gusta de la informatica, la Programación y el Diseño Web, es así como en el año 2019
-      decidí entrar a la academia DesafioLatam, vi que tenía muchas buenas referencias de sus Ex Alumnos. Actualmente me encuentro muy feliz, aprendiendo y haciendo lo que más me gusta.
+    <div class="row">
 
-    </p>
+      <p class="text-justify anton col-sm-6 py-5 text-white"> Hola, les contare un poco sobre mí. Tengo 24 años, Desde muy niño me encantaba la informatica, me gustaba mucho intrusear
+        los computadores, cambiarles piezas, instarles diferentes sistemas operativos y realizar multiples tareas de soporte para ellos. Luego de salir del Colegio el Año 2012
+        decidí estudiar Ingeniería en Informática en Inacap, por diferentes problemas no pude seguir estudiando, pero luego retome los estudios y me titule de Analista Programador.
+      </p>
+
+      <p class="text-justify anton col-sm-6 py-5 text-white"> Luego decidí continuar aprendiendo lo que mas me gusta de la informatica, la Programación y el Diseño Web, es así como en el año 2019
+        decidí entrar a la academia DesafioLatam, vi que tenía muchas buenas referencias de sus Ex Alumnos. Actualmente me encuentro muy feliz, aprendiendo y haciendo lo que más me gusta.
+
+      </p>
+
+    </div>
 
   </div>
 
@@ -105,45 +118,49 @@
 
 
 
-<section id="Experiencia" class="bg-light container py-3 ">
+<section id="experiencia" class="bg-white py-3 ">
 
-  <div>
+  <div class="container">
 
-    <h1 class="text-center cursiva display-1 py-2"> Experiencia </h1>
-    <hr class="hr"> </hr>
+    <div>
 
-  </div>
+      <h1 class="text-center cursiva  py-2"> Stack de Tecnología </h1>
+      <hr class="hr"> </hr>
 
-  <div class="row">
+    </div>
 
-    <div class="col-sm-6 py-3">
+    <div class="row">
 
-      <h3 class="text-center anton"> Practica Laboral Hospital Luis Tisne Brousse <h3>
-        <p class="text-center anton py-2"> Tecnologias Ocupadas:</p>
-        <i class="fab fa-php fa-3x px-5 m-3"> <span class="cursiva">PHP</span> 7</i>
-        <i class="fas fa-database fa-3x px-5 m-3"> <span class="cursiva"> MySql </span> </i>
+      <div class="col-sm-6 py-5">
+
+        <h2 class="text-center anton"> Backend </h2>
+        <hr class="hr"> </hr>
+
+        <div class="text-center">
+          <img src="assets/img/PHP-7.png" alt="php" class="px-2" width="28%"> </img>
+          <img src="assets/img/mysql.png" alt="mysql" class="px-4" width="28%"> </img>
+        </div>
 
       </div>
 
 
-      <div class="col-sm-6 py-3">
+      <div class="col-sm-6 py-5">
 
-        <h2 class="anton text-center"> Otras tecnologias aprendidas </h2>
+        <h2 class="anton text-center"> Frontend </h2>
         <hr class="hr"> </hr>
 
-        <div class="container text-center">
+        <div class="text-center">
 
           <div class=" py-3">
 
-            <img src="assets/img/tecnologias.png" alt="html" width="50%"> </img>
+            <img src="assets/img/tecnologias.png" alt="html" width="40%"> </img>
+            <img src="assets/img/bpng.png" alt="boot" class="px-3" width="18%"> </img>
+
 
           </div>
 
-          <div class="py-3 text-center">
 
-            <img src="assets/img/bpng.png" alt="boot" class="px-3" width="25%"> </img>
 
-          </div>
 
         </div>
 
@@ -152,141 +169,181 @@
 
     </div>
 
+    <div class="row">
+
+      <div class="col-sm-6 py-5">
+
+        <h2 class="text-center anton"> Sistemas Operativos </h2>
+        <hr class="hr"> </hr>
+
+        <div class="text-center">
+
+
+          <img src="assets/img/windows.jpg" alt="windows"  width="28%"> </img>
+          <img src="assets/img/ubuntu.png" alt="ubuntu"    width="24%"> </img>
+
+
+        </div>
+      </div>
+
+      <div class="col-sm-6 py-5">
+
+        <h2 class="text-center anton"> Control de Versiones </h2>
+        <hr class="hr"> </hr>
+
+        <div class="text-center">
+
+
+          <img src="assets/img/GITHUB.png" alt="windows"  width="30%"> </img>
+
+
+        </div>
+
+      </div>
+
+
+
+
+    </div>
 
 
   </section>
 
 
-  <section id="ultlimosTrabajos" class="container bg-white py-2 m-auto">
+  <section id="ultimo" class="bg-dark py-5">
 
 
-  <h1 class="text-dark text-center cursiva  display-1"> Mis trabajos </h1>
-  <hr class="hr"> </hr>
+    <div class="container">
 
-    <div class="row">
 
-      <div class="card-deck m-auto py-5 ">
-    <div class="card col-sm-4">
-      <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h1 class="text-center cursiva text-white"> Mis trabajos </h1>
+      <hr class="hrwhite"> </hr>
+
+      <div class="row">
+
+        <div class="card-deck m-auto py-5 ">
+          <div class="card col-sm-4">
+            <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Meet & Coffee</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card col-sm-4">
+            <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Iguana Page</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card col-sm-4">
+            <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Suricata</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </div>
-    <div class="card col-sm-4">
-      <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+
+      <div class="row">
+
+        <div class="card-deck">
+          <div class="card col-sm-4">
+            <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CUPPON</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card col-sm-4">
+            <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">RICOMIDA</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card col-sm-4">
+            <img src="assets/img/dmark.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DMARK</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </div>
-    <div class="card col-sm-4">
-      <img src="assets/img/suricata.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
 
-</div>
-
-
-<div class="row">
-
-  <div class="card-deck">
-<div class="card col-sm-4">
-  <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-  </div>
-</div>
-<div class="card col-sm-4">
-  <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-  </div>
-</div>
-<div class="card col-sm-4">
-  <img src="assets/img/dmark.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-  </div>
-</div>
-</div>
-
-</div>
-
-
-
-</section>
-
-
-<section id="contacto" class="container bg-light py-3">
-
-
-
-
-     <h2 class="text-center display-1"> Contacto </h2>
-     <hr class="hr"> </h1>
-
-
-     <div class="typeform-widget py-5" data-url="https://felipepalmaalvarez.typeform.com/to/I6uN0S" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=I6uN0S&utm_source=typeform.com-13652054-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
-
-
-
-
-</section>
-
-
-
-
-<footer class="bg-dark py-5">
-  <div class="container">
- <div class="row">
-    <div class="col-sm-8">
-      <h3 class="cursiva text-white text-center"> Felipe Palma Álvarez </h3>
     </div>
 
+  </section>
 
-    <div class="col-sm-4">
-            <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-3x px-2"></i></a>
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x px-2"></i></a>
-            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x px-2"></i></a>
-            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x px-2"></i></a>
+
+  <section id="contacto" class="bg-white py-5">
+
+
+    <div class="container">
+
+
+
+
+      <h2 class="text-center text-dark cursiva"> Contacto </h2>
+      <hr class="hr"> </h1>
+
+
+      <div class="typeform-widget py-5" data-url="https://felipepalmaalvarez.typeform.com/to/I6uN0S" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=I6uN0S&utm_source=typeform.com-13652054-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+
+
+
     </div>
 
-</div>
+  </section>
 
-</div>
+
+
+
+  <footer class="bg-dark py-5">
+
+    <div class="container">
+
+      <section>
+        <div class="row">
+
+          <div class="col-sm-8">
+            <h3 class="cursiva text-white text-center"> Felipe Palma Álvarez </h3>
+          </div>
+
+
+          <div class="col-sm-4">
+            <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-3x px-2" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x px-2" data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x px-2"data-toggle="tooltip" data-placement="top" title="linkedin"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x px-2" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+
 
   </footer>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="assets/js/script.js"></script>
